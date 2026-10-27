@@ -2,3 +2,6 @@
 assets/models/
 build/
 __pycache__/
+audio/mix_raw.wav
+audio/sfx_only.wav
+output/*_2160x3840_60fps.mp4

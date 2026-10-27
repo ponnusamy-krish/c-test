@@ -1,0 +1,89 @@
+{
+ "plate": "assets/raw/baedeker_plan_i_1914.jpg",
+ "size": [
+  2857,
+  2622
+ ],
+ "pins_native_px": {
+  "nikolaevsky_station": [
+   2069.0,
+   1532.0
+  ],
+  "palace_bridge": [
+   1385.0,
+   1268.0
+  ],
+  "post_telegraph": [
+   1306.0,
+   1454.0
+  ],
+  "state_bank": [
+   1595.0,
+   1435.0
+  ],
+  "baltic_station": [
+   1227.0,
+   2132.0
+  ],
+  "winter_palace": [
+   1444.0,
+   1290.0
+  ],
+  "smolny": [
+   2518.0,
+   1083.0
+  ],
+  "aurora_nikolaevsky_bridge": [
+   1038.0,
+   1434.0
+  ]
+ },
+ "pins_lonlat": {
+  "nikolaevsky_station": [
+   30.3622,
+   59.9308
+  ],
+  "palace_bridge": [
+   30.3101,
+   59.9406
+  ],
+  "post_telegraph": [
+   30.3043,
+   59.9334
+  ],
+  "state_bank": [
+   30.3262,
+   59.9343
+  ],
+  "baltic_station": [
+   30.2991,
+   59.9072
+  ],
+  "winter_palace": [
+   30.3146,
+   59.9398
+  ],
+  "smolny": [
+   30.3957,
+   59.9484
+  ],
+  "aurora_nikolaevsky_bridge": [
+   30.284,
+   59.934
+  ]
+ },
+ "affine_lonlat_km_to_px": [
+  [
+   236.62642853732413,
+   3.4347170242824228
+  ],
+  [
+   3.4471495001016734,
+   -232.98292216699613
+  ],
+  [
+   1247.6092887680666,
+   1541.1587431721039
+  ]
+ ]
+}
