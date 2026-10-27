@@ -8,7 +8,8 @@ A documentary-style YouTube Shorts / Instagram Reels film, made entirely with Py
 
 | What | Where |
 |---|---|
-| **Final film, 4K master** (H.264 High, AAC) | `output/how_the_bolsheviks_took_power_2160x3840_60fps.mp4` (681 MB; **not committed to git**, over GitHub's 100 MB limit) |
+| **Final film, 4K** (H.264 High, AAC), 48 Mbps | `output/how_the_bolsheviks_took_power_2160x3840_60fps_48mbps.mp4` (391 MB; delivered in the chat, **not committed to git**: over GitHub's 100 MB limit) |
+| 4K high-bitrate master (84 Mbps, straight from the renderer) | `output/how_the_bolsheviks_took_power_2160x3840_60fps.mp4` (681 MB; only on the render machine, produced by `src/render.py`) |
 | 1080×1920 60 fps preview of the same film | `output/preview_1080x1920_60fps.mp4` |
 | Thumbnail | `output/thumbnail_2160x3840.png`, `output/thumbnail_1080x1920.jpg` |
 | Narration script with timings, pronunciation check | `docs/narration_script.md` |
@@ -23,14 +24,14 @@ A documentary-style YouTube Shorts / Instagram Reels film, made entirely with Py
 
 ## What was verified on the finished file
 
-Measured by `src/verify.py` on the 4K master (all pass):
+Measured by `src/verify.py` on both 4K files; every check passes on each (the 48 Mbps file is a straight re-encode of the 84 Mbps master with the audio copied unchanged):
 
 | Check | Result |
 |---|---|
 | Resolution | 2160 × 3840 (9:16) |
 | Frame rate | 60 fps constant, 3,870 frames |
 | Duration | 64.50 s (target 55–65 s) |
-| Video | H.264 High @ L5.2, yuv420p, BT.709, 84 Mbps average, `faststart` |
+| Video | H.264 High @ L5.2, yuv420p, BT.709, `faststart`; 48 Mbps (delivered file) or 84 Mbps (master) |
 | Audio | AAC-LC 48 kHz stereo, 249 kbps |
 | Loudness | −14.0 LUFS integrated, true peak −1.5 dBTP, zero clipped samples |
 | Sound effects vs voice | effects sit about 19 dB below the narration (ducked while the voice speaks) |
@@ -63,7 +64,7 @@ Narration and timing follow the script in `docs/narration_script.md` (the openin
 * **"Millions died"** is accurate if civilians are counted; military deaths alone were about 1.7–2 million (see `docs/FACT_CHECK.md`).
 * **Caption timing** is accurate to about ±0.15 s.
 * **Platform safe zones.** Captions sit at 74% of the frame height, above the area YouTube Shorts and Reels usually cover with their own interface, but check on your device.
-* **File size.** The 4K master is large (84 Mbps, mainly the film grain). YouTube and Instagram will re-encode it.
+* **File size.** The film grain makes the video expensive to encode: the renderer's master is 84 Mbps (681 MB) and the delivered file is 48 Mbps (391 MB). YouTube and Instagram will re-encode either one.
 
 ## Reproducing it
 

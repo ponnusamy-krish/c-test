@@ -1,6 +1,6 @@
 # Verification report
 
-Produced by `src/verify.py` on `output/how_the_bolsheviks_took_power_2160x3840_60fps.mp4` (the 4K master).
+Produced by `src/verify.py` on `output/how_the_bolsheviks_took_power_2160x3840_60fps.mp4` (the 84 Mbps 4K master). The delivered 48 Mbps file (`..._48mbps.mp4`, a straight re-encode with the audio copied) was verified with the same script: all checks pass, video bitrate 48.3 Mbps, 391.2 MB, loudness −14.0 LUFS, A/V sync offset 1 ms, no black or frozen frames, no unexplained jumps.
 
 | Check | Result | Detail |
 |---|---|---|
