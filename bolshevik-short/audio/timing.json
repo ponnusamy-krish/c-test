@@ -1,0 +1,47 @@
+{
+  "voice": "bm_george",
+  "speed": 1.07,
+  "total": 63.204,
+  "segments": {
+    "hook": {
+      "start": 0.0,
+      "end": 12.412,
+      "text": "Russia was one of the world's largest empires. In 1917, a revolutionary party seized its capital in hours. But taking control of Russia itself was a much longer struggle."
+    },
+    "crisis": {
+      "start": 12.762,
+      "end": 17.258,
+      "text": "World War One drained the empire. Millions died, and bread ran short."
+    },
+    "tsar": {
+      "start": 17.608,
+      "end": 27.015,
+      "text": "In February 1917, strikes and mutinies in Petrograd forced Nicholas the Second to abdicate. A Provisional Government took over."
+    },
+    "lenin": {
+      "start": 27.365,
+      "end": 34.299,
+      "text": "It kept fighting the war. Lenin's Bolsheviks promised peace, land, and bread, and workers and soldiers listened."
+    },
+    "october": {
+      "start": 34.649,
+      "end": 45.662,
+      "text": "On October twenty-fifth, by the old Russian calendar, Bolsheviks seized Petrograd's key points and toppled the Provisional Government. November seventh, in the Gregorian calendar."
+    },
+    "civil_war": {
+      "start": 46.062,
+      "end": 52.492,
+      "text": "But holding the capital was not holding Russia. Civil war split the empire between Reds and Whites."
+    },
+    "consolidation": {
+      "start": 52.892,
+      "end": 58.793,
+      "text": "By 1922, through war and tight centralised control, the Bolsheviks had won."
+    },
+    "end": {
+      "start": 59.293,
+      "end": 63.204,
+      "text": "The capital fell in hours. Consolidating power took years."
+    }
+  }
+}
